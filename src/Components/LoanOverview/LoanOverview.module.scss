@@ -1,0 +1,29 @@
+$leftComponentPadding: 10px 5px 5px 10px;
+$rightComponentPadding: 10px 5px 5px 5px;
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .loanDetailsContainer {
+    flex: 1;
+    flex-direction: column;
+    padding: $leftComponentPadding;
+    box-sizing: border-box;
+    .loanDetails {
+      padding: $leftComponentPadding;
+    }
+    .loanOverview {
+      padding: $leftComponentPadding;
+    }
+  }
+  .graphOverview {
+    flex: 1;
+    padding: $rightComponentPadding;
+  }
+  .repaymentchart {
+    flex: 1;
+    padding: $leftComponentPadding;
+  }
+}

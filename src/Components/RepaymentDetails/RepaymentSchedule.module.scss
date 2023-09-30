@@ -1,0 +1,79 @@
+.monthlyPaymentSheduleContainer {
+  .header {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid #b8b8b8;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    div {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+  }
+  .paymentRow {
+    display: flex;
+    flex-direction: row;
+    div:nth-child(1) {
+      padding: 5px;
+      width: 4%;
+    }
+    div:nth-child(2) {
+      padding: 5px;
+      width: 12%;
+    }
+    div:nth-child(3) {
+      padding: 10px;
+      width: 12%;
+    }
+    div:nth-child(4) {
+      padding: 10px;
+      width: 12%;
+    }
+    div:nth-child(5) {
+      padding: 10px;
+      width: 12%;
+    }
+    div:nth-child(6) {
+      padding: 10px;
+      width: 12%;
+    }
+    div:nth-child(7) {
+      padding: 10px;
+      width: 12%;
+    }
+    div:nth-child(8) {
+      padding: 10px;
+      width: 12%;
+    }
+    div:nth-child(9) {
+      padding: 10px;
+      width: 12%;
+    }
+    div {
+      align-items: center;
+      display: flex;
+    }
+  }
+  .footer {
+    font-weight: bold;
+    border-top: 1px solid white;
+  }
+}
+
+.repaymentOverviewContainer {
+  display: flex;
+  flex-direction: row;
+  .repaymentchart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    canvas {
+      width: 50% !important;
+      height: 50% !important;
+    }
+  }
+  fieldset {
+    flex: 1;
+  }
+}

@@ -1,0 +1,14 @@
+.AppHeader {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 21px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App > div {
+  margin: 10px;
+}

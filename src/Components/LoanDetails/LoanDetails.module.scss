@@ -1,0 +1,39 @@
+$leftComponentPadding: 10px 5px 5px 10px;
+$rightComponentPadding: 10px 5px 5px 5px;
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex: 1;
+  .loanDetailsContainer {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    // padding: $leftComponentPadding;
+    box-sizing: border-box;
+    .loanDetails {
+      // padding: $leftComponentPadding;
+      flex: 1;
+    }
+    .loanOverview {
+      // padding: $rightComponentPadding;
+      flex: 1;
+    }
+  }
+  .graphOverview {
+    flex: 1;
+    // padding: $rightComponentPadding;
+    canvas {
+      width: 50% !important;
+      height: 50% !important;
+    }
+    fieldset {
+      height: calc(100% - 15px);
+    }
+  }
+}
+.repaymentchart {
+  width: 25%;
+  // height: 25%;
+}

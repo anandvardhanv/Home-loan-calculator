@@ -1,0 +1,96 @@
+$control-font-color: #181818;
+
+* {
+  font-size: 14px;
+  font-weight: 450;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.table-container {
+  width: 100%;
+  display: table;
+  .table-row {
+    display: table-row;
+    width: 100%;
+    .table-cell {
+      display: table-cell;
+      padding: 5px;
+      width: 50%;
+    }
+  }
+}
+
+// input {
+//   width: 100%;
+//   line-height: 15px;
+// }
+
+input {
+  border: 2px solid #b8b8b8;
+  border-radius: 0.4em;
+  padding: 0.75em;
+  width: 100%;
+  max-width: 20rem;
+  color: $control-font-color;
+}
+select {
+  border: 2px solid #b8b8b8;
+  border-radius: 0.4em;
+  padding: 0.75em;
+  max-width: 20rem;
+  color: $control-font-color;
+  option {
+    color: $control-font-color;
+  }
+}
+.textlabel {
+  display: block;
+  padding: 0.75em;
+  height: 50px;
+  margin-bottom: 0.65em;
+}
+
+.currencyLabel:before {
+  margin-right: 2px;
+  content: "\20B9";
+}
+
+body {
+  background-color: #404040;
+
+  fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #e7e7e7;
+    border-image: initial;
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+  legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    color: yellow;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
