@@ -540,7 +540,7 @@ export default class RepaymentDetails extends React.Component<
                   type="number"
                   name="newInterestRates"
                   key={this.state.prepaymentAmts[index].monthNumber}
-                  value={this.state.prepaymentAmts[index].payment}
+                  value={this.state.newInterestRates[index].newInterestRate}
                   onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                     this.handleChangeInterestRates(
                       e,
